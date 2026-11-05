@@ -156,7 +156,8 @@ section.tight { padding: 2.25rem 0; }
 
 /* ---------- Grids and cards ---------- */
 .grid { display: grid; gap: 1.25rem; }
-.grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
+.grid-pair { max-width: 940px; }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .grid-4 { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
 
